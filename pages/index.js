@@ -58,12 +58,17 @@ export default class extends React.Component {
             z-index: -1;
           }
           .wrapper {
-            padding: 20px;
+            padding: 40px;
             text-align: left;
             width: 100%;
             max-width: 600px;
             font-family: "Source Sans Pro", sans-serif;
             box-sizing: border-box;
+          }
+          @media (max-width: 600px) {
+            .wrapper {
+              padding: 20px;
+            }
           }
           .wrapper p {
             font-size: 34px;
