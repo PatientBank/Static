@@ -1,0 +1,2 @@
+# static
+PatientBank static website
