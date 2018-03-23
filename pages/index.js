@@ -58,7 +58,7 @@ export default class extends React.Component {
             z-index: -1;
           }
           .wrapper {
-            padding: 20px;
+            padding: 50px;
             text-align: left;
             width: 100%;
             max-width: 600px;
